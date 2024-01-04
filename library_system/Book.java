@@ -20,5 +20,9 @@ public abstract class Book {
         return this.author;
     }
 
+    public void printInfo() {
+        System.out.println("this is a book");
+    }
+
     public abstract void read();
 }
