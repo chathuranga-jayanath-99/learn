@@ -1,3 +1,5 @@
+package design_patterns.creational.builder;
+
 public class House implements HousePlan {
   private String basement;
   private String structure;

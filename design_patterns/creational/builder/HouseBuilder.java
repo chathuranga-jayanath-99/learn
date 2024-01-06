@@ -1,3 +1,5 @@
+package design_patterns.creational.builder;
+
 public interface HouseBuilder {
   public void buildBasement();
   public void buildStructure();
